@@ -11,10 +11,363 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand fs-3 fw-bold" href="#">GYM Juan Perez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Lugar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Planes</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex ms-3" role="search">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <button class="btn btn-outline-primary fs-5" type="submit">Iniciar Sesión</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- PORTADA -->
+    <div class="container-fluid" id="portada">
+        <div class="container py-5">
+            <div class="row pt-5 pb-2">
+                <div class="col-7 pb-3">
+                    <h1 class="fs-1 text-light fw-bold pb-3">
+                        ¡Vuélvete más en forma, más fuerte y más seguro!
+                    </h1>
+                    <p class="fs-3 text-light mt-3">Comience con una suscripción</p>
+                    <button type="button" class="btn btn-primary px-4 fw-bold fs-4 mb-3 mt-3">Ver planes</button>
+                </div>
+                <div class="col-12 pt-4">
+                    <p class="text-center text-light fs-4">Muchas personas ya estan transformando sus vidas en esta
+                        epoca de pandemia.
+                    </p>
+                </div>
+            </div>
+            <div class="container pb-4">
+                <div class="row">
+                    <div class="d-flex col-4">
+                        <span class="my-auto pe-2">✔</span>
+                        <p class="text-light fs-4 my-auto">Cerca de tí</p>
+                    </div>
+                    <div class="d-flex col-4">
+                        <span class="my-auto pe-2">✔</span>
+                        <p class="text-light fs-4 my-auto">Buenos precios</p>
+                    </div>
+                    <div class="d-flex col-4">
+                        <span class="my-auto pe-2">✔</span>
+                        <p class="text-light fs-4 my-auto">Execelentes entrenadores</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PLANES -->
+    <div class="container py-5" id="planes">
+        <h2 class="text-center fw-bold">ELIGE <span class="text-primary">TU PLAN</span></h2>
+        <p class="text-center mb-5">¡Comienza a entrenar con nosotros! Elige el plan que quieras y nos vemos en la sede
+            de tu preferencia.</p>
+        <div class="container px-5">
+            <div class="row">
+                <div class="col-8 d-flex flex-column px-0">
+                    <div style="height: 100px;"></div>
+                    <div class="d-flex border-bottom border-2 fila">
+                        <p class="my-auto">Accede a todas las áreas del gimnasio</p>
+                    </div>
+                    <div class="d-flex border-bottom border-2 fila">
+                        <p class="my-auto">Área de peso libre, peso integrado, cardio y clases grupales</p>
+                    </div>
+                    <div class="d-flex border-bottom border-2 fila">
+                        <p class="my-auto">Entrenamiento online</p>
+                    </div>
+                    <div class="d-flex border-bottom border-2 fila">
+                        <p class="my-auto">Relájate en los sillones de masajes</p>
+                    </div>
+                    <div class="d-flex border-bottom border-2 fila">
+                        <p class="my-auto">Invita a un amigo a entrenar hasta 5 veces al mes</p>
+                    </div>
+                    <div class="d-flex border-bottom border-2 fila">
+                        <p class="my-auto">Entrena en toda la semana</p>
+                    </div>
+                </div>
+                <!-- PLAN PLATA -->
+                <div class="col-2 pt-3 border border-4 border-white">
+                    <div>
+                        <p class="text-center">Plan <span class="fw-bold">PLATA</span></p>
+                        <p class="text-center">Entrena cuando puedas</p>
+                    </div>
+                    <div class="d-flex icon-svg border-bottom border-2 fila"><svg class="my-auto" width='100%'
+                            height='100%' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14C3.5 19.799 8.20101 24.5 14 24.5ZM13.9999 22.7499C18.8324 22.7499 22.7499 18.8324 22.7499 13.9999C22.7499 9.16745 18.8324 5.24994 13.9999 5.24994C9.16745 5.24994 5.24994 9.16745 5.24994 13.9999C5.24994 18.8324 9.16745 22.7499 13.9999 22.7499Z'
+                                fill='%230FA826' />
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M18.5562 10.7563C18.8979 11.098 18.8979 11.652 18.5562 11.9937L13.3062 17.2437C12.9645 17.5854 12.4105 17.5854 12.0688 17.2437L9.44378 14.6187C9.10207 14.277 9.10207 13.723 9.44378 13.3813C9.78549 13.0396 10.3395 13.0396 10.6812 13.3813L12.6875 15.3876L17.3188 10.7563C17.6605 10.4146 18.2145 10.4146 18.5562 10.7563Z'
+                                fill='%230FA826' />
+                        </svg></div>
+                    <div class="d-flex icon-svg border-bottom border-2 fila"><svg class="my-auto" width='100%'
+                            height='100%' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14C3.5 19.799 8.20101 24.5 14 24.5ZM13.9999 22.7499C18.8324 22.7499 22.7499 18.8324 22.7499 13.9999C22.7499 9.16745 18.8324 5.24994 13.9999 5.24994C9.16745 5.24994 5.24994 9.16745 5.24994 13.9999C5.24994 18.8324 9.16745 22.7499 13.9999 22.7499Z'
+                                fill='%230FA826' />
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M18.5562 10.7563C18.8979 11.098 18.8979 11.652 18.5562 11.9937L13.3062 17.2437C12.9645 17.5854 12.4105 17.5854 12.0688 17.2437L9.44378 14.6187C9.10207 14.277 9.10207 13.723 9.44378 13.3813C9.78549 13.0396 10.3395 13.0396 10.6812 13.3813L12.6875 15.3876L17.3188 10.7563C17.6605 10.4146 18.2145 10.4146 18.5562 10.7563Z'
+                                fill='%230FA826' />
+                        </svg></div>
+                    <div class="d-flex icon-svg border-bottom border-2 fila"><svg class="my-auto" width='100%'
+                            height='100%' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14C3.5 19.799 8.20101 24.5 14 24.5ZM13.9999 22.7499C18.8324 22.7499 22.7499 18.8324 22.7499 13.9999C22.7499 9.16745 18.8324 5.24994 13.9999 5.24994C9.16745 5.24994 5.24994 9.16745 5.24994 13.9999C5.24994 18.8324 9.16745 22.7499 13.9999 22.7499Z'
+                                fill='%230FA826' />
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M18.5562 10.7563C18.8979 11.098 18.8979 11.652 18.5562 11.9937L13.3062 17.2437C12.9645 17.5854 12.4105 17.5854 12.0688 17.2437L9.44378 14.6187C9.10207 14.277 9.10207 13.723 9.44378 13.3813C9.78549 13.0396 10.3395 13.0396 10.6812 13.3813L12.6875 15.3876L17.3188 10.7563C17.6605 10.4146 18.2145 10.4146 18.5562 10.7563Z'
+                                fill='%230FA826' />
+                        </svg></div>
+
+                    <div class="d-flex icon-svg-none border-bottom border-2 fila"><svg class="my-auto" width='100%'
+                            height='100%' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <rect y='-0.342502' width='18.9427' height='1.75586' rx='0.87793'
+                                transform='matrix(0.704737 0.709469 -0.704737 0.709469 1.6556 0.900492)'
+                                fill='%23999999' stroke='%23999999' stroke-width='0.482759' />
+                            <rect y='-0.342502' width='18.9427' height='1.75586' rx='0.87793'
+                                transform='matrix(-0.704737 0.709469 0.704737 0.709469 14.8268 0.900492)'
+                                fill='%23999999' stroke='%23999999' stroke-width='0.482759' />
+                        </svg></div>
+                    <div class="d-flex icon-svg-none border-bottom border-2 fila"><svg class="my-auto" width='100%'
+                            height='100%' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <rect y='-0.342502' width='18.9427' height='1.75586' rx='0.87793'
+                                transform='matrix(0.704737 0.709469 -0.704737 0.709469 1.6556 0.900492)'
+                                fill='%23999999' stroke='%23999999' stroke-width='0.482759' />
+                            <rect y='-0.342502' width='18.9427' height='1.75586' rx='0.87793'
+                                transform='matrix(-0.704737 0.709469 0.704737 0.709469 14.8268 0.900492)'
+                                fill='%23999999' stroke='%23999999' stroke-width='0.482759' />
+                        </svg></div>
+                    <div class="d-flex icon-svg-none border-bottom border-2 fila"><svg class="my-auto" width='100%'
+                            height='100%' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <rect y='-0.342502' width='18.9427' height='1.75586' rx='0.87793'
+                                transform='matrix(0.704737 0.709469 -0.704737 0.709469 1.6556 0.900492)'
+                                fill='%23999999' stroke='%23999999' stroke-width='0.482759' />
+                            <rect y='-0.342502' width='18.9427' height='1.75586' rx='0.87793'
+                                transform='matrix(-0.704737 0.709469 0.704737 0.709469 14.8268 0.900492)'
+                                fill='%23999999' stroke='%23999999' stroke-width='0.482759' />
+                        </svg></div>
+                    <div class="">
+                        <p class="text-center mb-0">DESDE</span></p>
+                        <p class="text-center"><span class="fw-bold">S/ 59,90</span>/mes</p>
+                    </div>
+                </div>
+                <!-- PLAN GOLD -->
+                <div class="col-2 pt-3 position-relative border border-4 border-warning rounded rounded-5">
+                    <span
+                        class="position-absolute translate-middle top-0 start-40 bg-warning badge text-bg-warning text-dark">Más
+                        <span class="fw-bold">beneficios</span></span>
+                    <div>
+                        <p class="text-center">Plan <span class="fw-bold">GOLD</span></p>
+                        <p class="text-center">Entrena cuando quieras</p>
+                    </div>
+                    <div class="d-flex icon-svg border-bottom border-2 fila"><svg class="my-auto" width='100%'
+                            height='100%' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14C3.5 19.799 8.20101 24.5 14 24.5ZM13.9999 22.7499C18.8324 22.7499 22.7499 18.8324 22.7499 13.9999C22.7499 9.16745 18.8324 5.24994 13.9999 5.24994C9.16745 5.24994 5.24994 9.16745 5.24994 13.9999C5.24994 18.8324 9.16745 22.7499 13.9999 22.7499Z'
+                                fill='%230FA826' />
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M18.5562 10.7563C18.8979 11.098 18.8979 11.652 18.5562 11.9937L13.3062 17.2437C12.9645 17.5854 12.4105 17.5854 12.0688 17.2437L9.44378 14.6187C9.10207 14.277 9.10207 13.723 9.44378 13.3813C9.78549 13.0396 10.3395 13.0396 10.6812 13.3813L12.6875 15.3876L17.3188 10.7563C17.6605 10.4146 18.2145 10.4146 18.5562 10.7563Z'
+                                fill='%230FA826' />
+                        </svg></div>
+                    <div class="d-flex icon-svg border-bottom border-2 fila"><svg class="my-auto" width='100%'
+                            height='100%' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14C3.5 19.799 8.20101 24.5 14 24.5ZM13.9999 22.7499C18.8324 22.7499 22.7499 18.8324 22.7499 13.9999C22.7499 9.16745 18.8324 5.24994 13.9999 5.24994C9.16745 5.24994 5.24994 9.16745 5.24994 13.9999C5.24994 18.8324 9.16745 22.7499 13.9999 22.7499Z'
+                                fill='%230FA826' />
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M18.5562 10.7563C18.8979 11.098 18.8979 11.652 18.5562 11.9937L13.3062 17.2437C12.9645 17.5854 12.4105 17.5854 12.0688 17.2437L9.44378 14.6187C9.10207 14.277 9.10207 13.723 9.44378 13.3813C9.78549 13.0396 10.3395 13.0396 10.6812 13.3813L12.6875 15.3876L17.3188 10.7563C17.6605 10.4146 18.2145 10.4146 18.5562 10.7563Z'
+                                fill='%230FA826' />
+                        </svg></div>
+                    <div class="d-flex icon-svg border-bottom border-2 fila"><svg class="my-auto" width='100%'
+                            height='100%' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14C3.5 19.799 8.20101 24.5 14 24.5ZM13.9999 22.7499C18.8324 22.7499 22.7499 18.8324 22.7499 13.9999C22.7499 9.16745 18.8324 5.24994 13.9999 5.24994C9.16745 5.24994 5.24994 9.16745 5.24994 13.9999C5.24994 18.8324 9.16745 22.7499 13.9999 22.7499Z'
+                                fill='%230FA826' />
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M18.5562 10.7563C18.8979 11.098 18.8979 11.652 18.5562 11.9937L13.3062 17.2437C12.9645 17.5854 12.4105 17.5854 12.0688 17.2437L9.44378 14.6187C9.10207 14.277 9.10207 13.723 9.44378 13.3813C9.78549 13.0396 10.3395 13.0396 10.6812 13.3813L12.6875 15.3876L17.3188 10.7563C17.6605 10.4146 18.2145 10.4146 18.5562 10.7563Z'
+                                fill='%230FA826' />
+                        </svg></div>
+
+                    <div class="d-flex icon-svg border-bottom border-2 fila"><svg class="my-auto" width='100%'
+                            height='100%' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14C3.5 19.799 8.20101 24.5 14 24.5ZM13.9999 22.7499C18.8324 22.7499 22.7499 18.8324 22.7499 13.9999C22.7499 9.16745 18.8324 5.24994 13.9999 5.24994C9.16745 5.24994 5.24994 9.16745 5.24994 13.9999C5.24994 18.8324 9.16745 22.7499 13.9999 22.7499Z'
+                                fill='%230FA826' />
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M18.5562 10.7563C18.8979 11.098 18.8979 11.652 18.5562 11.9937L13.3062 17.2437C12.9645 17.5854 12.4105 17.5854 12.0688 17.2437L9.44378 14.6187C9.10207 14.277 9.10207 13.723 9.44378 13.3813C9.78549 13.0396 10.3395 13.0396 10.6812 13.3813L12.6875 15.3876L17.3188 10.7563C17.6605 10.4146 18.2145 10.4146 18.5562 10.7563Z'
+                                fill='%230FA826' />
+                        </svg></div>
+                    <div class="d-flex icon-svg border-bottom border-2 fila"><svg class="my-auto" width='100%'
+                            height='100%' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14C3.5 19.799 8.20101 24.5 14 24.5ZM13.9999 22.7499C18.8324 22.7499 22.7499 18.8324 22.7499 13.9999C22.7499 9.16745 18.8324 5.24994 13.9999 5.24994C9.16745 5.24994 5.24994 9.16745 5.24994 13.9999C5.24994 18.8324 9.16745 22.7499 13.9999 22.7499Z'
+                                fill='%230FA826' />
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M18.5562 10.7563C18.8979 11.098 18.8979 11.652 18.5562 11.9937L13.3062 17.2437C12.9645 17.5854 12.4105 17.5854 12.0688 17.2437L9.44378 14.6187C9.10207 14.277 9.10207 13.723 9.44378 13.3813C9.78549 13.0396 10.3395 13.0396 10.6812 13.3813L12.6875 15.3876L17.3188 10.7563C17.6605 10.4146 18.2145 10.4146 18.5562 10.7563Z'
+                                fill='%230FA826' />
+                        </svg></div>
+                    <div class="d-flex icon-svg border-bottom border-2 fila"><svg class="my-auto" width='100%'
+                            height='100%' viewBox='0 0 28 28' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14C3.5 19.799 8.20101 24.5 14 24.5ZM13.9999 22.7499C18.8324 22.7499 22.7499 18.8324 22.7499 13.9999C22.7499 9.16745 18.8324 5.24994 13.9999 5.24994C9.16745 5.24994 5.24994 9.16745 5.24994 13.9999C5.24994 18.8324 9.16745 22.7499 13.9999 22.7499Z'
+                                fill='%230FA826' />
+                            <path fill-rule='evenodd' clip-rule='evenodd'
+                                d='M18.5562 10.7563C18.8979 11.098 18.8979 11.652 18.5562 11.9937L13.3062 17.2437C12.9645 17.5854 12.4105 17.5854 12.0688 17.2437L9.44378 14.6187C9.10207 14.277 9.10207 13.723 9.44378 13.3813C9.78549 13.0396 10.3395 13.0396 10.6812 13.3813L12.6875 15.3876L17.3188 10.7563C17.6605 10.4146 18.2145 10.4146 18.5562 10.7563Z'
+                                fill='%230FA826' />
+                        </svg></div>
+                    <div>
+                        <p class="text-center mb-0">DESDE</span></p>
+                        <p class="text-center"><span class="fw-bold">S/ 109,90</span>/mes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center py-5">
+                <button type="button" class="btn btn-primary fs-4 px-5">Empieza hoy</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- EXPERIENCIA -->
+    <div class="container py-5">
+        <h2 class="text-center fw-bold">Vive la experiencia <span class="text-primary">GYM Juan Perez</span> El gimnasio
+            para ti</h2>
+        <p class="text-center mb-5">No importa si ya tienes experiencia o si recién estás comenzando a practicar
+            actividad física, una cosa es segura. Lo disfrutaras</p>
+        <div class="d-flex justify-content-evenly">
+            <div class="card shadow-lg rounded rounded-5" style="width: 18rem;">
+                <img src="https://smartsite-production.s3.amazonaws.com/images/new_home_pe/equipos-moderdos.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text text-center fw-bold">Equipos modernos
+                    </p>
+                </div>
+            </div>
+            <div class="card shadow-lg rounded rounded-5" style="width: 18rem;">
+                <img style="height: 286px;"
+                    src="https://www.orangetheoryfitness.es/wp-content/uploads/2020/01/clases-colectivas-divertidas.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text text-center fw-bold">Clases grupales
+
+                    </p>
+                </div>
+            </div>
+            <div class="card shadow-lg rounded rounded-5" style="width: 18rem;">
+                <img src="https://smartsite-production.s3.amazonaws.com/images/new_home_pe/zona-de-entrenamiento.webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text text-center fw-bold">Zona de entrenamiento
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center py-5">
+            <button type="button" class="btn btn-primary fs-4 px-5">Empieza hoy</button>
+        </div>
+    </div>
+
+    <!-- EXCLUSIVAS -->
+
+    <div class="container py-5">
+        <h2 class="text-center fw-bold">Conoce nuestras Clases Grupales <span class="text-primary">EXCLUSIVAS</span>
+        </h2>
+        <p class="text-center mb-5">Experiencia de entrenamiento completa, dentro y fuera del gimnasio</p>
+        <div class="d-flex justify-content-evenly">
+            <div class="card shadow-lg" style="width: 21rem;">
+                <img style="height: 210px;" src="https://www.aiguajoc.com/wp-content/themes/aiguajoc/includes/cropImage.php?imagen=https://www.aiguajoc.com/wp-content/uploads/2019/02/Depositphotos_72678401_m-2015.jpg&width=547&height=374" class="card-img-top" alt="...">
+                <div class="card-body px-0 py-0">
+                    <h5 class="card-title text-center bg-primary py-2">GYM ZUMBA</h5>
+                    <div class="row mx-4 pb-2 border-bottom border-bottom-3">
+                        <div class="col text-center">
+                            <span>⏱</span>
+                            <p class="fw-bold mb-0">Duración</p>
+                            <p class="mb-0 ">30/45/60 min</p>
+                        </div>
+                        <div class="col text-center">
+                            <span>⚡</span>
+                            <p class="fw-bold mb-0">Intensidad</p>
+                            <p class="mb-0">Alta</p>
+                        </div>
+                    </div>
+                    <p class="card-text px-4 py-3">
+                        Programa de entrenamiento que combina movimientos fitness con todo tipo de ritmos ayudando a mejorar la coordinación y la oxidación de grasa.</p>
+                </div>
+            </div>
+            <div class="card shadow-lg" style="width: 21rem;">
+                <img style="height: 210px;" src="https://www.malagahoy.es/2022/09/12/malaga/Sala-ejercicio-gimnasio-Synergym_1719739215_165949688_667x375.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-0 py-0">
+                    <h5 class="card-title text-center bg-primary py-2">GYM SHAPE</h5>
+                    <div class="row mx-4 pb-2 border-bottom border-bottom-3">
+                        <div class="col text-center">
+                            <span>⏱</span>
+                            <p class="fw-bold mb-0">Duración</p>
+                            <p class="mb-0 ">30 min</p>
+                        </div>
+                        <div class="col text-center">
+                            <span>⚡</span>
+                            <p class="fw-bold mb-0">Intensidad</p>
+                            <p class="mb-0">Alta</p>
+                        </div>
+                    </div>
+                    <p class="card-text px-4 py-3">
+                       
+      Entrenamiento de alta intensidad por intervalos de tiempo que alterna ejercicios funcionales con una Air Bike por intervalos de tiempo, orientado a la pérdida de grasa y mejorar la resistencia.
+    </p>
+                </div>
+            </div>
+            <div class="card shadow-lg" style="width: 21rem;">
+                <img style="height: 210px;" src="https://www.siroko.com/blog/c/app/uploads/2021/07/fitness_21858fa8-864f-404f-9bf5-c2a7d5f72ed7-1440x900.jpg" class="card-img-top" alt="...">
+                <div class="card-body px-0 py-0">
+                    <h5 class="card-title text-center bg-primary py-2">GYM BIKE</h5>
+                    <div class="row mx-4 pb-2 border-bottom border-bottom-3">
+                        <div class="col text-center">
+                            <span>⏱</span>
+                            <p class="fw-bold mb-0">Duración</p>
+                            <p class="mb-0 ">30/45/60 min</p>
+                        </div>
+                        <div class="col text-center">
+                            <span>⚡</span>
+                            <p class="fw-bold mb-0">Intensidad</p>
+                            <p class="mb-0">Alta</p>
+                        </div>
+                    </div>
+                    <p class="card-text px-4 py-3">
+                        
+      Entrenamiento de indoor cycling que presenta 3 maneras de intensificación: lineal, ondulatoria y por intervalos; cuyo objetivo es la perdida de grasa y el acondicionamiento cardiovascular.
+      </p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container text-center py-5">
+            <button type="button" class="btn btn-primary fs-4 px-5">Empieza hoy</button>
+        </div>
+    </div>
+
+    <!-- PIE -->
+
+    <div class="container-fluid text-center bg-primary py-5">
+        <span class="fw-bold text-light fs-5">Desarrollado por el Grupo 10</span>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

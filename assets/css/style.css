@@ -1,3 +1,21 @@
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
+#portada {
+    background-image: url(https://sportgym.club/wp-content/uploads/2019/11/cropped-TABLOIDE-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#planes .icon-svg svg {
+    height: 28px;
+    fill: #0f8300;
+}
+#planes .icon-svg-none svg {
+    height: 20px;
+    fill: rgb(123, 123, 123);
+}
+
+.fila {
+    height: 50px;
+}
+
